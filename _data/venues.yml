@@ -1,9 +1,9 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"ASONAM":
+  color: "#9f7a4b"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"SPECOM":
+  color: "#14324a"
 
-"Vision":
-  color: "#009f36"
+"W-NUT":
+  url: https://noisy-text.github.io/2020/
+  color: "#7d5b37"
