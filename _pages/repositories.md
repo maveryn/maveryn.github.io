@@ -1,43 +1,40 @@
 ---
 layout: page
-permalink: /repositories/
-title: repositories
-description: Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.
+permalink: /repos/
+title: Repos
+description: Research code, benchmarks, and lightweight project hubs.
 nav: true
-nav_order: 4
+nav_order: 3
 ---
 
-{% if site.data.repositories.github_users %}
+This page highlights active research code, benchmarks, and lightweight project pages. Major paper
+websites can be linked out as separate standalone sites, while this page remains the central index.
 
-## GitHub users
+## Featured Research Artifacts
+
+<div class="projects">
+  <div class="container px-0">
+    <div class="row row-cols-1 row-cols-md-2">
+      {% assign featured_projects = site.projects | sort: "importance" %}
+      {% for project in featured_projects %}
+        {% include projects_horizontal.liquid %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% if site.data.repositories.github_users %}
+## GitHub Profile
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for user in site.data.repositories.github_users %}
     {% include repository/repo_user.liquid username=user %}
   {% endfor %}
 </div>
-
----
-
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-{% if site.data.repositories.github_users.size > 1 %}
-
-  <h4>{{ user }}</h4>
-  {% endif %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.liquid username=user %}
-  </div>
-
----
-
-{% endfor %}
-{% endif %}
 {% endif %}
 
 {% if site.data.repositories.github_repos %}
-
-## GitHub Repositories
+## Selected Public Repositories
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
   {% for repo in site.data.repositories.github_repos %}

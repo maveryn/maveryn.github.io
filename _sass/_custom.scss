@@ -1,0 +1,154 @@
+/*******************************************************************************
+ * Site-specific customizations
+ ******************************************************************************/
+
+@use "variables" as v;
+
+body {
+  font-family: "Source Sans 3", sans-serif;
+  background-image:
+    radial-gradient(circle at top right, rgba(159, 122, 75, 0.08), transparent 28%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.18), transparent 20%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.post-title,
+.navbar .navbar-brand,
+.card-title {
+  font-family: "Cormorant Garamond", Georgia, serif;
+  letter-spacing: 0.01em;
+}
+
+.post .post-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.post .post-header .post-title {
+  font-size: clamp(2.5rem, 4vw, 4.25rem);
+  line-height: 0.95;
+}
+
+.post .post-header .desc {
+  max-width: 42rem;
+  margin-top: 0.75rem;
+  color: var(--global-text-color-light);
+  font-size: 1.05rem;
+}
+
+.profile {
+  background: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 1rem;
+  padding: 0.75rem;
+  box-shadow: 0 18px 36px rgba(20, 50, 74, 0.08);
+}
+
+.profile .more-info {
+  margin-top: 0.9rem;
+  font-size: 0.95rem;
+}
+
+.post article h2 {
+  margin-top: 2.5rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.link-cluster {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin: 1.5rem 0;
+}
+
+.link-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.4rem;
+  padding: 0.45rem 0.95rem;
+  border: 1px solid rgba(159, 122, 75, 0.35);
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.72);
+  color: var(--global-text-color);
+  font-weight: 600;
+  text-decoration: none;
+  transition:
+    transform 0.18s ease,
+    border-color 0.18s ease,
+    background-color 0.18s ease;
+}
+
+.link-chip:hover {
+  transform: translateY(-1px);
+  border-color: var(--global-theme-color);
+  background: rgba(159, 122, 75, 0.08);
+  text-decoration: none;
+}
+
+.focus-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 1.25rem 0 1.5rem;
+}
+
+.focus-pill {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.4rem 0.8rem;
+  border-radius: 999px;
+  background: rgba(20, 50, 74, 0.06);
+  color: var(--global-text-color);
+  border: 1px solid rgba(20, 50, 74, 0.08);
+  font-size: 0.95rem;
+}
+
+.featured-projects .card,
+.projects .card,
+.repositories .repo {
+  border-radius: 1rem;
+  border: 1px solid var(--global-divider-color);
+  box-shadow: 0 16px 32px rgba(20, 50, 74, 0.08);
+}
+
+.featured-projects .card:hover,
+.projects .card:hover,
+.repositories .repo:hover {
+  transform: translateY(-2px);
+}
+
+.cv-hero {
+  margin-bottom: 1.25rem;
+}
+
+.cv-frame {
+  width: 100%;
+  min-height: 72vh;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 1rem;
+  background: #fff;
+}
+
+.small-note {
+  margin-top: 0.75rem;
+  color: var(--global-text-color-light);
+  font-size: 0.95rem;
+}
+
+@media (max-width: 768px) {
+  .post .post-header .post-title {
+    font-size: 2.5rem;
+  }
+
+  .cv-frame {
+    min-height: 60vh;
+  }
+}

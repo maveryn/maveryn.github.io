@@ -31,10 +31,16 @@ $grey-900: #212529;
 
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
+$navy-color: #14324a !default;
+$navy-color-deep: #0d2132 !default;
+$bronze-color: #9f7a4b !default;
+$bronze-color-light: #c8ab7d !default;
+$parchment-color: #f6f0e6 !default;
+$ink-color: #22313f !default;
 
 // Theme colors
 
-$code-bg-color-light: rgba($purple-color, 0.05);
+$code-bg-color-light: rgba($navy-color, 0.05);
 $code-bg-color-dark: #2c3237 !default;
 
 // Font awesome location

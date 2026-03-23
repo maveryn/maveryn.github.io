@@ -1,14 +1,13 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - maveryn
 
-repo_description_lines_max: 2
+repo_description_lines_max: 3
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - maveryn/sphinx
+  - maveryn/cti-bench
+  - maveryn/rlvr-seq-generalization
+  - maveryn/punctuation-restoration
+  - maveryn/robust-vad
+  - maveryn/MetaSRE
+  - maveryn/bangla-text-classification

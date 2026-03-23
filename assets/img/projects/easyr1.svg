@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-label="EasyR1 project graphic">
+  <rect width="960" height="640" rx="36" fill="#14324a"/>
+  <rect x="126" y="164" width="214" height="120" rx="18" fill="#f6f0e6" opacity="0.95"/>
+  <rect x="372" y="118" width="214" height="120" rx="18" fill="#c8ab7d" opacity="0.95"/>
+  <rect x="618" y="210" width="214" height="120" rx="18" fill="#f6f0e6" opacity="0.95"/>
+  <path d="M340 224h32m214-46h32m0 0 20 0m-266 106h32m214-14h32" stroke="#9f7a4b" stroke-width="12" stroke-linecap="round"/>
+  <text x="118" y="480" font-family="Georgia, serif" font-size="74" fill="#f6f0e6">EasyR1</text>
+  <text x="118" y="548" font-family="Arial, sans-serif" font-size="28" fill="#d2dce3">Multi-modality RL training on top of veRL</text>
+</svg>
