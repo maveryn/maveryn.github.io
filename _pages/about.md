@@ -30,6 +30,7 @@ reliable in demanding real-world settings.
   <span class="focus-pill">Reinforcement learning with verifiable rewards</span>
   <span class="focus-pill">Robustness in language and multimodal systems</span>
   <span class="focus-pill">Alignment</span>
+  <span class="focus-pill">Explainability</span>
   <span class="focus-pill">Cyber threat intelligence</span>
 </div>
 
