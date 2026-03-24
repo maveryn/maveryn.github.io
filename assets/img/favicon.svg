@@ -1,5 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Tanvir Alam site icon">
   <rect width="128" height="128" rx="28" fill="#14324a"/>
-  <circle cx="64" cy="64" r="36" fill="#f6f0e6"/>
-  <path d="M64 28 69 48 90 53 72 64 76 85 64 73 52 85 56 64 38 53 59 48Z" fill="#9f7a4b"/>
+  <text
+    x="64"
+    y="74"
+    text-anchor="middle"
+    font-family="Georgia, 'Times New Roman', serif"
+    font-size="54"
+    font-weight="700"
+    fill="#f6f0e6"
+  >
+    T
+  </text>
 </svg>
