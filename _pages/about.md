@@ -32,9 +32,6 @@ with ongoing interests in cyber threat intelligence and applied security researc
   <span class="focus-pill">Cyber threat intelligence</span>
 </div>
 
-This site is designed as a research hub: publications live here, repositories are grouped in a
-single overview, and larger standalone project pages can be linked out as they are published.
-
 ## Connect
 
 <p class="link-cluster">
