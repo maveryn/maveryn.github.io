@@ -42,3 +42,5 @@ reliable in demanding real-world settings.
   <a class="link-chip" href="https://www.linkedin.com/in/maveryn/">LinkedIn</a>
   <a class="link-chip" href="https://stackoverflow.com/users/5131287/anathaatma">Stack Overflow</a>
 </p>
+
+<p class="small-note">Email: ma8235 [at] rit [dot] edu</p>
