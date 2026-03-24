@@ -41,6 +41,11 @@ _styles: |
     box-shadow: none;
     outline: none;
   }
+
+  .publications .links .btn {
+    text-transform: none !important;
+    letter-spacing: normal;
+  }
 ---
 
 {% include bib_search.liquid %}
