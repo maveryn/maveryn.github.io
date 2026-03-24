@@ -4,6 +4,10 @@ permalink: /publications/
 title: Publications
 nav: true
 nav_order: 2
+_styles: |
+  .post-header {
+    display: none;
+  }
 ---
 
 {% include bib_search.liquid %}
