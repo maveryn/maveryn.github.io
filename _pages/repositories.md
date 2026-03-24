@@ -7,22 +7,6 @@ nav: true
 nav_order: 3
 ---
 
-This page highlights active research code, benchmarks, and lightweight project pages. Major paper
-websites can be linked out as separate standalone sites, while this page remains the central index.
-
-## Featured Research Artifacts
-
-<div class="projects">
-  <div class="container px-0">
-    <div class="row row-cols-1 row-cols-md-2">
-      {% assign featured_projects = site.projects | sort: "importance" %}
-      {% for project in featured_projects %}
-        {% include projects_horizontal.liquid %}
-      {% endfor %}
-    </div>
-  </div>
-</div>
-
 {% if site.data.repositories.github_users %}
 ## GitHub Profile
 
