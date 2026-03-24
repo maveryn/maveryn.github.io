@@ -5,6 +5,10 @@ title: Repos
 description: Research code, benchmarks, and lightweight project hubs.
 nav: true
 nav_order: 3
+_styles: |
+  .post-header {
+    display: none;
+  }
 ---
 
 {% if site.data.repositories.github_users %}
