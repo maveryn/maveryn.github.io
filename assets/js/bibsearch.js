@@ -3,25 +3,19 @@ import { highlightSearchTerm } from "./highlight-search-term.js";
 document.addEventListener("DOMContentLoaded", function () {
   // actual bibsearch logic
   const filterItems = (searchTerm) => {
+    const normalizedSearchTerm = searchTerm.trim().toLowerCase();
     document.querySelectorAll(".bibliography, .unloaded").forEach((element) => element.classList.remove("unloaded"));
 
-    // highlight-search-term
-    if (CSS.highlights) {
-      const nonMatchingElements = highlightSearchTerm({ search: searchTerm, selector: ".bibliography > li" });
-      if (nonMatchingElements == null) {
-        return;
-      }
-      nonMatchingElements.forEach((element) => {
+    document.querySelectorAll(".bibliography > li").forEach((element) => {
+      const searchableText = element.textContent.toLowerCase();
+      if (normalizedSearchTerm && !searchableText.includes(normalizedSearchTerm)) {
         element.classList.add("unloaded");
-      });
-    } else {
-      // Simply add unloaded class to all non-matching items if Browser does not support CSS highlights
-      document.querySelectorAll(".bibliography > li").forEach((element, index) => {
-        const text = element.innerText.toLowerCase();
-        if (text.indexOf(searchTerm) == -1) {
-          element.classList.add("unloaded");
-        }
-      });
+      }
+    });
+
+    // highlight-search-term on visible results
+    if (CSS.highlights) {
+      highlightSearchTerm({ search: normalizedSearchTerm, selector: ".bibliography > li:not(.unloaded)" });
     }
 
     document.querySelectorAll("h2.bibliography").forEach(function (element) {
@@ -61,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("bibsearch").addEventListener("input", function () {
     clearTimeout(timeoutId); // Clear the previous timeout
     const searchTerm = this.value.toLowerCase();
-    timeoutId = setTimeout(filterItems(searchTerm), 300);
+    timeoutId = setTimeout(() => filterItems(searchTerm), 300);
   });
 
   window.addEventListener("hashchange", updateInputField); // Update the filter when the hash changes
