@@ -143,6 +143,39 @@ h6,
   font-size: 0.95rem;
 }
 
+.publications .abbr .badge {
+  padding: 0.7rem 0.45rem;
+}
+
+.publications .abbr .badge .venue-link,
+.publications .abbr .badge .venue-abbr {
+  display: block;
+  color: #fff;
+  font-weight: 700;
+  line-height: 1.1;
+  text-decoration: none;
+}
+
+.publications .abbr .badge .venue-year,
+.publications .abbr .badge .venue-note {
+  display: block;
+  color: rgba(255, 255, 255, 0.92);
+  line-height: 1.1;
+}
+
+.publications .abbr .badge .venue-year {
+  margin-top: 0.15rem;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.publications .abbr .badge .venue-note {
+  margin-top: 0.2rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
 @media (max-width: 768px) {
   .post .post-header .post-title {
     font-size: 2.5rem;
