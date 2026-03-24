@@ -6,8 +6,7 @@ repo_description_lines_max: 3
 github_repos:
   - maveryn/sphinx
   - maveryn/cti-bench
-  - maveryn/rlvr-seq-generalization
   - maveryn/punctuation-restoration
-  - maveryn/robust-vad
-  - maveryn/MetaSRE
-  - maveryn/bangla-text-classification
+  - aiforsec/LADDER
+  - aiforsec/CyNER
+  - maveryn/rlvr-seq-generalization
