@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "Current curriculum vitae and downloadable PDF.",
+          description: "",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
