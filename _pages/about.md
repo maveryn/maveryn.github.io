@@ -3,17 +3,6 @@ layout: about
 title: About
 permalink: /
 subtitle: PhD Candidate in Computing and Information Sciences at Rochester Institute of Technology
-
-profile:
-  align: right
-  image: profile-mark.svg
-  image_circular: false
-  more_info: >
-    <p>Computing and Information Sciences</p>
-    <p>Rochester Institute of Technology</p>
-    <p>Reasoning, RLVR, multimodal evaluation</p>
-
-selected_papers: true
 social: false
 
 announcements:
@@ -32,13 +21,6 @@ language models, reinforcement learning with verifiable rewards, and multimodal 
 research sits at the intersection of language, vision-language systems, and trustworthy evaluation,
 with ongoing interests in cyber threat intelligence and applied security research.
 
-<p class="link-cluster">
-  <a class="link-chip" href="https://github.com/maveryn">GitHub</a>
-  <a class="link-chip" href="https://scholar.google.com/citations?user=EjbYMI0AAAAJ&hl=en&authuser=1">Google Scholar</a>
-  <a class="link-chip" href="https://orcid.org/0000-0003-4284-2743">ORCID</a>
-  <a class="link-chip" href="/cv/">CV</a>
-</p>
-
 ## Research Themes
 
 <div class="focus-grid">
@@ -53,18 +35,11 @@ with ongoing interests in cyber threat intelligence and applied security researc
 This site is designed as a research hub: publications live here, repositories are grouped in a
 single overview, and larger standalone project pages can be linked out as they are published.
 
-## Featured Repositories
+## Connect
 
-The [Repos](/repos/) page collects current research code, benchmarks, and lightweight project
-pages.
-
-<div class="projects featured-projects">
-  <div class="container px-0">
-    <div class="row row-cols-1 row-cols-md-2">
-      {% assign featured_projects = site.projects | sort: "importance" %}
-      {% for project in featured_projects limit: 4 %}
-        {% include projects_horizontal.liquid %}
-      {% endfor %}
-    </div>
-  </div>
-</div>
+<p class="link-cluster">
+  <a class="link-chip" href="https://github.com/maveryn">GitHub</a>
+  <a class="link-chip" href="https://scholar.google.com/citations?user=EjbYMI0AAAAJ&hl=en&authuser=1">Google Scholar</a>
+  <a class="link-chip" href="https://www.linkedin.com/in/maveryn/">LinkedIn</a>
+  <a class="link-chip" href="https://stackoverflow.com/users/5131287/anathaatma">Stack Overflow</a>
+</p>

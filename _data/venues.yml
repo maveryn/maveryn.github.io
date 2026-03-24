@@ -1,5 +1,14 @@
-"ASONAM":
-  color: "#9f7a4b"
+"CVPR":
+  color: "#14324a"
+
+"NeurIPS":
+  color: "#8a6a3a"
+
+"RAID":
+  color: "#6c4d2f"
+
+"arXiv":
+  color: "#50606d"
 
 "SPECOM":
   color: "#14324a"

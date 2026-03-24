@@ -1,31 +1,196 @@
-@inproceedings{alam2020disasterbench,
-  abbr        = {ASONAM},
-  title       = {Social Media Image Classification Benchmarks for Various Disaster Response Tasks},
-  author      = {Alam, F. and Ofli, Ferda and Imran, Muhammad and Alam, Md Tanvirul and Qazi, U.},
-  booktitle   = {2020 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining},
-  year        = {2020},
-  abstract    = {This work consolidates disaster image classification datasets across multiple response tasks, deduplicates and relabels data where needed, and establishes strong convolutional baselines for disaster type, informativeness, humanitarian category, and damage severity prediction.},
+@inproceedings{alam2024ctibench,
+  abbr        = {NeurIPS},
+  title       = {{CTIBench}: A Benchmark for Evaluating {LLM}s in Cyber Threat Intelligence},
+  author      = {Alam, Md Tanvirul and Bhusal, Dipkamal and Nguyen, Le and Rastogi, Nidhi},
+  booktitle   = {Advances in Neural Information Processing Systems},
+  note        = {Datasets and Benchmarks Track},
+  year        = {2024},
+  abstract    = {CTIBench introduces a task-focused benchmark for cyber threat intelligence that probes factual recall, applied reasoning, and robustness, showing that even strong language models remain unreliable on practical CTI workflows.},
+  arxiv       = {2406.07599},
+  code        = {https://github.com/maveryn/cti-bench},
   bibtex_show = {true},
   selected    = {true}
+}
+
+@inproceedings{alam2026sphinx,
+  abbr        = {CVPR},
+  title       = {{SPHINX}: A Synthetic Environment for Visual Perception and Reasoning},
+  author      = {Alam, Md Tanvirul and Aggarwal, Saksham and Chae, Justin Yang and Rastogi, Nidhi},
+  booktitle   = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year        = {2026},
+  abstract    = {SPHINX builds a synthetic visual reasoning environment with procedurally generated puzzles and verifiable answers, enabling precise evaluation of multimodal reasoning and showing that RLVR can improve large vision-language models on these tasks.},
+  arxiv       = {2511.20814},
+  code        = {https://github.com/maveryn/sphinx},
+  bibtex_show = {true},
+  selected    = {true}
+}
+
+@article{alam2026minerva,
+  abbr        = {arXiv},
+  title       = {Minerva: Reinforcement Learning with Verifiable Rewards for Cyber Threat Intelligence {LLM}s},
+  author      = {Alam, Md Tanvirul and Piplai, Aritran and Cardei, Ionut and Rastogi, Nidhi and Worth Jr, Peter J.},
+  journal     = {arXiv preprint},
+  year        = {2026},
+  abstract    = {Minerva studies RL with verifiable rewards for cyber threat intelligence tasks, using structured CTI outputs and deterministic verifiers to improve model accuracy and robustness beyond supervised fine-tuning.},
+  arxiv       = {2602.00513},
+  bibtex_show = {true},
+  selected    = {true}
+}
+
+@article{alam2025athenabench,
+  abbr        = {arXiv},
+  title       = {AthenaBench: A Dynamic Benchmark for Evaluating {LLM}s in Cyber Threat Intelligence},
+  author      = {Alam, Md Tanvirul and Bhusal, Dipkamal and Ahmad, Salman and Rastogi, Nidhi and Worth, Peter},
+  journal     = {arXiv preprint},
+  year        = {2025},
+  abstract    = {AthenaBench extends CTIBench with a stronger data pipeline, refined metrics, and a new risk-mitigation task, revealing that current frontier models still struggle on reasoning-heavy CTI problems.},
+  arxiv       = {2511.01144},
+  code        = {https://github.com/Athena-Software-Group/athenabench},
+  bibtex_show = {true},
+  selected    = {false}
+}
+
+@article{alam2025rlvrlimits,
+  abbr        = {arXiv},
+  title       = {Limits of Generalization in {RLVR}: Two Case Studies in Mathematical Reasoning},
+  author      = {Alam, Md Tanvirul and Rastogi, Nidhi},
+  journal     = {arXiv preprint},
+  year        = {2025},
+  abstract    = {This paper tests RLVR on combinatorial reasoning problems with fully verifiable solutions and finds that better scores often come from exploiting shortcuts rather than learning genuinely transferable reasoning strategies.},
+  arxiv       = {2510.27044},
+  code        = {https://github.com/maveryn/rlvr-seq-generalization},
+  bibtex_show = {true},
+  selected    = {false}
+}
+
+@article{smith2025rr,
+  abbr        = {arXiv},
+  title       = {{R+R}: Revisiting Static Feature-Based Android Malware Detection using Machine Learning},
+  author      = {Smith, Stephen and Alam, Md Tanvirul and Neil, Joshua and Worth Jr, Peter J.},
+  journal     = {arXiv preprint},
+  year        = {2025},
+  abstract    = {R+R revisits static feature-based Android malware detection with modern experimental controls, showing where traditional machine learning pipelines still work well and where they fail under realistic distribution shifts.},
+  arxiv       = {2409.07397},
+  bibtex_show = {true},
+  selected    = {false}
+}
+
+@article{smith2025adapt,
+  abbr        = {arXiv},
+  title       = {{ADAPT}: A Pseudo-labeling Approach to Combat Concept Drift in Malware Detection},
+  author      = {Smith, Stephen and Alam, Md Tanvirul and Neil, Joshua and Worth Jr, Peter J.},
+  journal     = {arXiv preprint},
+  year        = {2025},
+  abstract    = {ADAPT tackles concept drift in malware detection by using pseudo-labeling to refresh models on shifting data distributions, improving robustness when labeled updates are scarce.},
+  arxiv       = {2507.08597},
+  bibtex_show = {true},
+  selected    = {false}
+}
+
+@article{chae2025selfplay,
+  abbr        = {arXiv},
+  title       = {Towards Understanding Self-play for {LLM} Reasoning},
+  author      = {Chae, Justin Yang and Alam, Md Tanvirul and Rastogi, Nidhi},
+  journal     = {arXiv preprint},
+  year        = {2025},
+  abstract    = {This work studies how self-play improves language-model reasoning by analyzing the problems generated during training and the mechanisms that help reasoning ability emerge without external supervision.},
+  arxiv       = {2510.27072},
+  bibtex_show = {true},
+  selected    = {false}
+}
+
+@article{bhusal2024secure,
+  abbr        = {arXiv},
+  title       = {{SECURE}: Benchmarking Large Language Models for Cybersecurity},
+  author      = {Bhusal, Dipkamal and Alam, Md Tanvirul and Nguyen, Le and Mahara, Ashim and Lightcap, Zachary and Frazier, Rodney and Fieblinger, Romy and Torales, Grace Long and Blakely, Benjamin A. and Rastogi, Nidhi},
+  journal     = {arXiv preprint},
+  year        = {2024},
+  abstract    = {SECURE introduces a broad cybersecurity benchmark spanning knowledge extraction, understanding, and reasoning tasks, and shows that current large language models remain inconsistent on applied cyber problems.},
+  arxiv       = {2405.20441},
+  bibtex_show = {true},
+  selected    = {false}
+}
+
+@inproceedings{fieblinger2024actionable,
+  abbr        = {arXiv},
+  title       = {Actionable Cyber Threat Intelligence using Knowledge Graphs and Large Language Models},
+  author      = {Fieblinger, Romy and Alam, Md Tanvirul and Rastogi, Nidhi},
+  booktitle   = {IEEE European Symposium on Security and Privacy Workshops},
+  year        = {2024},
+  abstract    = {This paper combines open-source language models with knowledge-graph construction to extract actionable cyber threat intelligence from unstructured reports and study how well structured CTI can be built at scale.},
+  arxiv       = {2407.02528},
+  bibtex_show = {true},
+  selected    = {false}
+}
+
+@article{bhusal2024pasa,
+  abbr        = {arXiv},
+  title       = {{PASA}: Attack Agnostic Unsupervised Adversarial Detection using Prediction and Attribution Sensitivity Analysis},
+  author      = {Bhusal, Dipkamal and Alam, Md Tanvirul and Veerabhadran, Monish Kumar Manikya and Clifford, Michael and Rampazzi, Sara and Rastogi, Nidhi},
+  journal     = {arXiv preprint},
+  year        = {2024},
+  abstract    = {PASA detects adversarial examples without attack-specific tuning by measuring how unstable both predictions and feature attributions become under noise, using thresholds learned only from benign data.},
+  arxiv       = {2404.10789},
+  bibtex_show = {true},
+  selected    = {false}
+}
+
+@inproceedings{alam2023ladder,
+  abbr        = {RAID},
+  title       = {Looking Beyond {IoCs}: Automatically Extracting Attack Patterns from External {CTI}},
+  author      = {Alam, Md Tanvirul and Bhusal, Dipkamal and Park, Youngja and Rastogi, Nidhi},
+  booktitle   = {International Symposium on Research in Attacks, Intrusions and Defenses},
+  year        = {2023},
+  abstract    = {Looking Beyond IoCs introduces LADDER, a framework for extracting text-based attack patterns from CTI reports and mapping them to MITRE ATT&CK so analysts can reason about evolving threats beyond brittle indicators.},
+  arxiv       = {2211.01753},
+  website     = {https://research.ibm.com/publications/looking-beyond-iocs-automatically-extracting-attack-patterns-from-external-cti},
+  bibtex_show = {true},
+  selected    = {false}
+}
+
+@article{alam2022cyner,
+  abbr        = {arXiv},
+  title       = {{CyNER}: A Python Library for Cybersecurity Named Entity Recognition},
+  author      = {Alam, Md Tanvirul and Bhusal, Dipkamal and Park, Youngja and Rastogi, Nidhi},
+  journal     = {arXiv preprint},
+  year        = {2022},
+  abstract    = {CyNER packages transformer models, heuristic extractors, and generic NER components into an open-source library for extracting cybersecurity entities and indicators of compromise from heterogeneous threat reports.},
+  arxiv       = {2204.05754},
+  code        = {https://github.com/aiforsec/cyner},
+  bibtex_show = {true},
+  selected    = {false}
+}
+
+@article{alam2020bangla,
+  abbr        = {arXiv},
+  title       = {Bangla Text Classification using Transformers},
+  author      = {Alam, Tanvirul and Khan, Akib and Alam, Firoj},
+  journal     = {arXiv preprint},
+  year        = {2020},
+  abstract    = {This paper fine-tunes multilingual transformer models for Bangla sentiment analysis, emotion detection, news categorization, and authorship attribution, reporting state-of-the-art gains across six benchmark datasets.},
+  arxiv       = {2011.04446},
+  code        = {https://github.com/maveryn/bangla-text-classification},
+  bibtex_show = {true},
+  selected    = {false}
 }
 
 @inproceedings{alam2020punctuation,
   abbr        = {W-NUT},
   title       = {Punctuation Restoration using Transformer Models for High-and Low-Resource Languages},
-  author      = {Alam, Md Tanvirul and Khan, A. and Alam, F.},
+  author      = {Alam, Md Tanvirul and Khan, Akib and Alam, Firoj},
   booktitle   = {Proceedings of the 6th Workshop on Noisy User-generated Text},
   year        = {2020},
   abstract    = {This paper studies punctuation restoration for both high-resource and low-resource settings, explores transformer-based models for ASR post-processing, and introduces an augmentation strategy that improves robustness while establishing a public baseline for Bangla.},
   pdf         = {http://noisy-text.github.io/2020/pdf/2020.d200-1.18.pdf},
   code        = {https://github.com/maveryn/punctuation-restoration},
   bibtex_show = {true},
-  selected    = {true}
+  selected    = {false}
 }
 
 @inproceedings{alam2020robustvad,
   abbr        = {SPECOM},
   title       = {Lightweight {CNN} for Robust Voice Activity Detection},
-  author      = {Alam, Md Tanvirul and Khan, A.},
+  author      = {Alam, Md Tanvirul and Khan, Akib},
   booktitle   = {International Conference on Speech and Computer},
   pages       = {1--12},
   publisher   = {Springer},
@@ -34,5 +199,5 @@
   website     = {https://link.springer.com/chapter/10.1007/978-3-030-60276-5_1},
   code        = {https://github.com/maveryn/robust-vad},
   bibtex_show = {true},
-  selected    = {true}
+  selected    = {false}
 }
