@@ -147,16 +147,24 @@ h6,
   padding: 0.7rem 0.45rem;
 }
 
+.publications .abbr .badge .venue-head {
+  display: inline-flex;
+  align-items: baseline;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 0.25rem;
+}
+
 .publications .abbr .badge .venue-link,
-.publications .abbr .badge .venue-abbr {
-  display: block;
+.publications .abbr .badge .venue-abbr,
+.publications .abbr .badge .venue-year {
+  display: inline;
   color: #fff;
   font-weight: 700;
   line-height: 1.1;
   text-decoration: none;
 }
 
-.publications .abbr .badge .venue-year,
 .publications .abbr .badge .venue-note {
   display: block;
   color: rgba(255, 255, 255, 0.92);
@@ -164,7 +172,7 @@ h6,
 }
 
 .publications .abbr .badge .venue-year {
-  margin-top: 0.15rem;
+  margin-left: 0.25rem;
   font-size: 0.85rem;
   font-weight: 600;
 }

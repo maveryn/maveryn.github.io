@@ -15,24 +15,28 @@
               {{ venue_style }}
             {% endif -%}
           >
-            {% if site.data.venues[entry.abbr].url %}
-              <a class="venue-link" href="{{ site.data.venues[entry.abbr].url }}">{{ entry.abbr }}</a>
-            {% else %}
-              <div class="venue-abbr">{{- entry.abbr -}}</div>
-            {% endif %}
-            {% if entry.year %}
-              <div class="venue-year">{{ entry.year }}</div>
-            {% endif %}
+            <span class="venue-head">
+              {% if site.data.venues[entry.abbr].url %}
+                <a class="venue-link" href="{{ site.data.venues[entry.abbr].url }}">{{ entry.abbr }}</a>
+              {% else %}
+                <span class="venue-abbr">{{- entry.abbr -}}</span>
+              {% endif %}
+              {% if entry.year %}
+                <span class="venue-year">{{ entry.year }}</span>
+              {% endif %}
+            </span>
             {% if entry.badge_note %}
               <div class="venue-note">{{ entry.badge_note }}</div>
             {% endif %}
           </abbr>
         {% else %}
           <abbr class="badge rounded w-100">
-            <div class="venue-abbr">{{ entry.abbr }}</div>
-            {% if entry.year %}
-              <div class="venue-year">{{ entry.year }}</div>
-            {% endif %}
+            <span class="venue-head">
+              <span class="venue-abbr">{{ entry.abbr }}</span>
+              {% if entry.year %}
+                <span class="venue-year">{{ entry.year }}</span>
+              {% endif %}
+            </span>
             {% if entry.badge_note %}
               <div class="venue-note">{{ entry.badge_note }}</div>
             {% endif %}
