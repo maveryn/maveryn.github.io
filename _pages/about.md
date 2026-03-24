@@ -16,19 +16,20 @@ latest_posts:
   limit: 3
 ---
 
-I am Tanvir, a PhD candidate at Rochester Institute of Technology working on reasoning in large
-language models, reinforcement learning with verifiable rewards, and multimodal evaluation. My
-research sits at the intersection of language, vision-language systems, and trustworthy evaluation,
-with ongoing interests in cyber threat intelligence and applied security research.
+I am Tanvir, a PhD candidate at Rochester Institute of Technology working at the intersection of
+reasoning, reinforcement learning, and robust AI systems. My research spans large language models,
+multimodal models, and cyber threat intelligence, with a focus on making these systems more
+reliable in demanding real-world settings.
 
-## Research Themes
+## Research Interests
 
 <div class="focus-grid">
-  <span class="focus-pill">Multimodal reasoning</span>
+  <span class="focus-pill">Reasoning</span>
   <span class="focus-pill">Large language models</span>
   <span class="focus-pill">Large vision-language models</span>
-  <span class="focus-pill">RLVR and verifiable rewards</span>
-  <span class="focus-pill">Mechanistic analysis and evaluation benchmarks</span>
+  <span class="focus-pill">Reinforcement learning with verifiable rewards</span>
+  <span class="focus-pill">Robustness in language and multimodal systems</span>
+  <span class="focus-pill">Alignment</span>
   <span class="focus-pill">Cyber threat intelligence</span>
 </div>
 
