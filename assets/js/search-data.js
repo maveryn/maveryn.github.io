@@ -35,11 +35,6 @@ ninja.data = [{
           description: "Benchmarking infrastructure for cyber threat intelligence research workflows.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/cti-bench/";
-            },},{id: "projects-easyr1",
-          title: 'EasyR1',
-          description: "Multi-modality RL training infrastructure built on top of veRL.",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/easyr1/";
             },},{id: "projects-rlvr-sequence-generalization",
           title: 'RLVR Sequence Generalization',
           description: "Experiments and analysis for sequence generalization under RL with verifiable rewards.",
@@ -51,13 +46,6 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/sphinx/";
             },},{
-        id: 'social-cv',
-        title: 'CV',
-        section: 'Socials',
-        handler: () => {
-          window.open("/assets/pdf/CV_Md_Tanvirul_Alam.pdf", "_blank");
-        },
-      },{
         id: 'social-github',
         title: 'GitHub',
         section: 'Socials',
@@ -65,11 +53,11 @@ ninja.data = [{
           window.open("https://github.com/maveryn", "_blank");
         },
       },{
-        id: 'social-orcid',
-        title: 'ORCID',
+        id: 'social-linkedin',
+        title: 'LinkedIn',
         section: 'Socials',
         handler: () => {
-          window.open("https://orcid.org/0000-0003-4284-2743", "_blank");
+          window.open("https://www.linkedin.com/in/maveryn", "_blank");
         },
       },{
         id: 'social-rss',
@@ -84,6 +72,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://scholar.google.com/citations?user=EjbYMI0AAAAJ", "_blank");
+        },
+      },{
+        id: 'social-stackoverflow',
+        title: 'Stackoverflow',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://stackoverflow.com/users/5131287/anathaatma", "_blank");
         },
       },{
       id: 'light-theme',
