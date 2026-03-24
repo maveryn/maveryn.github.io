@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: PhD Candidate in Computing and Information Sciences at Rochester Institute of Technology
+subtitle: PhD Candidate at Rochester Institute of Technology
 social: false
 
 announcements:
