@@ -108,11 +108,13 @@ h6,
   padding: 0.9rem 1rem;
   border-radius: 1rem;
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(246, 240, 230, 0.92)),
-    rgba(20, 50, 74, 0.04);
+    linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(240, 232, 218, 0.98)),
+    rgba(20, 50, 74, 0.08);
   color: var(--global-text-color);
-  border: 1px solid rgba(20, 50, 74, 0.12);
-  box-shadow: 0 14px 28px rgba(20, 50, 74, 0.06);
+  border: 1px solid rgba(20, 50, 74, 0.18);
+  box-shadow:
+    0 16px 30px rgba(20, 50, 74, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.7);
   font-size: 0.98rem;
   font-weight: 600;
   line-height: 1.3;
