@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" role="img" aria-label="CTI-Bench project graphic">
+  <rect width="960" height="640" rx="36" fill="#14324a"/>
+  <rect x="120" y="120" width="720" height="400" rx="28" fill="#f6f0e6" opacity="0.96"/>
+  <path d="M214 246h232M214 320h356M214 394h164" stroke="#9f7a4b" stroke-width="18" stroke-linecap="round"/>
+  <circle cx="684" cy="238" r="62" fill="none" stroke="#14324a" stroke-width="18"/>
+  <path d="M684 192v92m-46-46h92" stroke="#14324a" stroke-width="14" stroke-linecap="round"/>
+  <text x="118" y="584" font-family="Georgia, serif" font-size="72" fill="#f6f0e6">CTI-Bench</text>
+  <text x="118" y="548" font-family="Arial, sans-serif" font-size="28" fill="#d2dce3">Cyber threat intelligence evaluation and benchmarking</text>
+</svg>

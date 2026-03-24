@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-label="Site preview card">
+  <rect width="1200" height="630" fill="#0d2132"/>
+  <circle cx="960" cy="122" r="18" fill="#c8ab7d"/>
+  <circle cx="1010" cy="168" r="10" fill="#c8ab7d"/>
+  <circle cx="930" cy="214" r="8" fill="#c8ab7d"/>
+  <path d="M960 122 1010 168 930 214" fill="none" stroke="#c8ab7d" stroke-width="3"/>
+  <path d="M126 438c122-178 272-260 450-246 118 8 208 50 278 128" fill="none" stroke="#9f7a4b" stroke-width="10" stroke-linecap="round"/>
+  <path d="M856 184c-14 62-72 110-142 110-80 0-146-66-146-146S634 2 714 2c54 0 102 28 127 71" transform="translate(-40 132)" fill="none" stroke="#f6f0e6" stroke-width="12"/>
+  <text x="110" y="226" font-family="Georgia, serif" font-size="74" fill="#f6f0e6">Md Tanvirul Alam</text>
+  <text x="110" y="296" font-family="Arial, sans-serif" font-size="34" fill="#cfd8df">Multimodal reasoning, RLVR, and evaluation for language and vision-language models</text>
+  <text x="110" y="390" font-family="Arial, sans-serif" font-size="28" fill="#c8ab7d">GitHub Pages academic website rebuilt on al-folio</text>
+</svg>
