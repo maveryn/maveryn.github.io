@@ -100,7 +100,7 @@ h6,
   margin: 1rem 0 1.35rem;
 }
 
-.focus-pill {
+.focus-grid .focus-pill {
   position: relative;
   display: flex;
   align-items: flex-start;
@@ -109,7 +109,7 @@ h6,
   padding: 0.95rem 0.9rem 0.8rem;
   border-radius: 1rem;
   background: linear-gradient(180deg, #fffdf9 0%, #efe3d1 100%);
-  color: #14324a;
+  color: #14324a !important;
   border: 1px solid rgba(20, 50, 74, 0.12);
   box-shadow:
     0 12px 24px rgba(20, 50, 74, 0.08),
@@ -121,7 +121,7 @@ h6,
   letter-spacing: 0.01em;
 }
 
-.focus-pill::before {
+.focus-grid .focus-pill::before {
   content: "";
   position: absolute;
   top: 0;
@@ -132,7 +132,7 @@ h6,
   background: linear-gradient(90deg, #9f7a4b 0%, #14324a 100%);
 }
 
-.focus-pill:hover {
+.focus-grid .focus-pill:hover {
   transform: translateY(-1px);
   border-color: rgba(159, 122, 75, 0.45);
   box-shadow: 0 16px 28px rgba(20, 50, 74, 0.11);
