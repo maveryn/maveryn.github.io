@@ -1,12 +1,65 @@
-github_users:
-  - maveryn
-
-repo_description_lines_max: 3
+github_profile:
+  username: maveryn
+  name: Md Tanvirul Alam
+  description: Research code, benchmarks, and lightweight project hubs across multimodal reasoning, RLVR, and cyber threat intelligence.
+  profile_url: https://github.com/maveryn
+  links:
+    - label: GitHub
+      url: https://github.com/maveryn
+    - label: Website
+      url: https://maveryn.github.io
 
 github_repos:
-  - maveryn/sphinx
-  - maveryn/cti-bench
-  - maveryn/punctuation-restoration
-  - aiforsec/LADDER
-  - aiforsec/CyNER
-  - maveryn/rlvr-seq-generalization
+  - repository: maveryn/sphinx
+    title: SPHINX
+    description: A synthetic environment for visual perception and reasoning.
+    language: Python
+    tags:
+      - Benchmark
+      - Synthetic Data
+      - Multimodal Reasoning
+
+  - repository: maveryn/cti-bench
+    title: CTI-Bench
+    description: Benchmarking infrastructure for cyber threat intelligence research workflows.
+    language: Python
+    tags:
+      - Security
+      - Benchmark
+      - CTI
+
+  - repository: maveryn/punctuation-restoration
+    title: Punctuation Restoration
+    description: Models and experiments for punctuation restoration in low-resource settings.
+    language: Python
+    tags:
+      - NLP
+      - Speech
+      - Sequence Modeling
+
+  - repository: aiforsec/LADDER
+    title: LADDER
+    description: Extracting text-based attack patterns from CTI reports and mapping them to MITRE ATT&CK.
+    language: Python
+    tags:
+      - Security
+      - CTI
+      - Information Extraction
+
+  - repository: aiforsec/CyNER
+    title: CyNER
+    description: A Python library for cybersecurity named entity recognition and indicator extraction.
+    language: Python
+    tags:
+      - Security
+      - NER
+      - Library
+
+  - repository: maveryn/rlvr-seq-generalization
+    title: RLVR Sequence Generalization
+    description: Experiments and analysis for sequence generalization under RL with verifiable rewards.
+    language: Python
+    tags:
+      - RLVR
+      - Reasoning
+      - Research

@@ -142,6 +142,114 @@ h6,
   transform: translateY(-2px);
 }
 
+.repositories-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0 2.25rem;
+}
+
+.repositories-grid--profile {
+  grid-template-columns: minmax(0, 32rem);
+}
+
+.repo {
+  width: 100%;
+  max-width: none;
+}
+
+.repo-native-card {
+  background:
+    radial-gradient(circle at top right, rgba(159, 122, 75, 0.12), transparent 38%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(251, 246, 238, 0.96));
+  border: 1px solid rgba(159, 122, 75, 0.28);
+  box-shadow:
+    0 14px 30px rgba(20, 50, 74, 0.08),
+    inset 0 1px 0 rgba(255, 255, 255, 0.85);
+}
+
+.repositories .repo {
+  border: none;
+  box-shadow: none;
+  transform: none;
+}
+
+.repositories .repo:hover {
+  transform: none;
+}
+
+.repositories .repo:hover .repo-native-card {
+  transform: translateY(-2px);
+}
+
+.repo-native-card .card-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+}
+
+.repo-native-card__eyebrow {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: var(--global-text-color-light);
+  font-size: 0.92rem;
+  font-weight: 600;
+}
+
+.repo-native-card__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.9rem;
+  height: 1.9rem;
+  border-radius: 999px;
+  background: rgba(20, 50, 74, 0.08);
+  color: #14324a;
+}
+
+.repo-native-card__path {
+  word-break: break-word;
+}
+
+.repo-native-card__title {
+  margin: 0;
+  font-size: 1.55rem;
+  line-height: 0.98;
+}
+
+.repo-native-card__description {
+  margin: 0;
+  flex: 1 1 auto;
+  color: var(--global-text-color);
+  font-size: 0.98rem;
+}
+
+.repo-native-card__meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.repo-native-card__meta-item,
+.repo-native-card__tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  min-height: 2rem;
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  border: 1px solid rgba(159, 122, 75, 0.28);
+  background: rgba(255, 255, 255, 0.68);
+  color: #14324a;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.repo-native-card__links {
+  margin: 0;
+}
+
 .cv-hero {
   margin-bottom: 1.25rem;
 }

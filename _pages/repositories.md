@@ -11,20 +11,18 @@ _styles: |
   }
 ---
 
-{% if site.data.repositories.github_users %}
+{% if site.data.repositories.github_profile %}
 ## GitHub Profile
 
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.liquid username=user %}
-  {% endfor %}
+<div class="repositories repositories-grid repositories-grid--profile">
+  {% include repository/repo_user.liquid profile=site.data.repositories.github_profile %}
 </div>
 {% endif %}
 
 {% if site.data.repositories.github_repos %}
 ## Selected Public Repositories
 
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+<div class="repositories repositories-grid">
   {% for repo in site.data.repositories.github_repos %}
     {% include repository/repo.liquid repository=repo %}
   {% endfor %}

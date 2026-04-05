@@ -16,22 +16,27 @@ latest_posts:
   limit: 3
 ---
 
-I am Tanvir, a PhD candidate at Rochester Institute of Technology working at the intersection of
-reasoning, reinforcement learning, and robust AI systems. My research spans large language models,
-multimodal models, and cyber threat intelligence, with a focus on making these systems more
-reliable in demanding real-world settings.
+I am Tanvir, a PhD candidate at Rochester Institute of Technology working on reasoning in language
+and vision-language models, with a particular focus on reinforcement learning with verifiable
+rewards. My research studies when these systems genuinely acquire new reasoning ability versus when
+they rely on shortcuts, semantic priors, or reward-driven heuristics, spanning multimodal
+benchmarks, self-play, and structured real-world domains such as cyber threat intelligence. More
+broadly, I am interested in building robust AI systems that can reason reliably under distribution
+shift and in high-stakes settings. Looking ahead, I am especially interested in world models and in
+how language, vision, and action can be integrated into more grounded reasoning systems; if you
+would like to collaborate, feel free to email me.
 
 ## Research Interests
 
 <div class="focus-grid">
   <span class="focus-pill">Reasoning</span>
-  <span class="focus-pill">RL with verifiable rewards</span>
-  <span class="focus-pill">Large language models</span>
-  <span class="focus-pill">Large vision-language models</span>
-  <span class="focus-pill">Robustness in LLMs and LVLMs</span>
-  <span class="focus-pill">Alignment</span>
-  <span class="focus-pill">Explainability</span>
-  <span class="focus-pill">Cyber threat intelligence</span>
+  <span class="focus-pill">Reinforcement Learning with Verifiable Rewards</span>
+  <span class="focus-pill">Large Language Models</span>
+  <span class="focus-pill">Vision-Language Models</span>
+  <span class="focus-pill">Robustness and Generalization</span>
+  <span class="focus-pill">World Models</span>
+  <span class="focus-pill">Benchmarking and Evaluation</span>
+  <span class="focus-pill">Cyber Threat Intelligence</span>
 </div>
 
 ## Connect
