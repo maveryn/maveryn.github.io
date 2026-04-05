@@ -12,7 +12,7 @@ github_profile:
 github_repos:
   - repository: maveryn/sphinx
     title: SPHINX
-    description: A synthetic environment for visual perception and reasoning.
+    description: "[CVPR'26, Findings] SPHINX: A Synthetic Environment for Visual Perception and Reasoning."
     language: Python
     tags:
       - Benchmark
@@ -21,7 +21,7 @@ github_repos:
 
   - repository: maveryn/cti-bench
     title: CTI-Bench
-    description: Benchmarking infrastructure for cyber threat intelligence research workflows.
+    description: "[NeurIPS'24, Spotlight] CTIBench: A Benchmark for Evaluating LLMs in Cyber Threat Intelligence."
     language: Python
     tags:
       - Security
@@ -30,7 +30,7 @@ github_repos:
 
   - repository: maveryn/punctuation-restoration
     title: Punctuation Restoration
-    description: Models and experiments for punctuation restoration in low-resource settings.
+    description: Punctuation Restoration using Transformer Models for High- and Low-Resource Languages.
     language: Python
     tags:
       - NLP
@@ -39,7 +39,7 @@ github_repos:
 
   - repository: aiforsec/LADDER
     title: LADDER
-    description: Extracting text-based attack patterns from CTI reports and mapping them to MITRE ATT&CK.
+    description: "[RAID'23] Attack pattern extraction and knowledge graph construction from unstructured threat reports."
     language: Python
     tags:
       - Security
