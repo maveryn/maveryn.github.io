@@ -1,6 +1,6 @@
 {% assign repo = include.repository %}
 
-<div class="repo">
+<div class="repo" data-github-repo="{{ repo.repository }}">
   <div class="card h-100 hoverable repo-native-card">
     <div class="card-body">
       <div class="repo-native-card__eyebrow">
@@ -10,16 +10,12 @@
       <h3 class="card-title repo-native-card__title">{{ repo.title }}</h3>
       <p class="card-text repo-native-card__description">{{ repo.description }}</p>
 
-      <div class="repo-native-card__meta">
-        {% if repo.language %}
-          <span class="repo-native-card__meta-item">
-            <i class="fa-solid fa-code"></i>
-            {{ repo.language }}
-          </span>
-        {% endif %}
-        {% for tag in repo.tags %}
-          <span class="repo-native-card__tag">{{ tag }}</span>
-        {% endfor %}
+      <div class="repo-native-card__stats">
+        <span class="repo-native-card__stat">
+          <i class="fa-solid fa-star"></i>
+          <span class="repo-native-card__stat-label">Stars</span>
+          <span class="repo-native-card__stat-value js-github-repo-stars">--</span>
+        </span>
       </div>
 
       <div class="link-cluster repo-native-card__links">

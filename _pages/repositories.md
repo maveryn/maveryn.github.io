@@ -28,3 +28,5 @@ _styles: |
   {% endfor %}
 </div>
 {% endif %}
+
+<script defer src="{{ '/assets/js/github-repo-stats.js' | relative_url | bust_file_cache }}"></script>

@@ -1,6 +1,6 @@
 {% assign profile = include.profile %}
 
-<div class="repo repo-profile-card">
+<div class="repo repo-profile-card" data-github-username="{{ profile.username }}">
   <div class="card h-100 hoverable repo-native-card repo-native-card--profile">
     <div class="card-body">
       <div class="repo-native-card__eyebrow">
@@ -9,6 +9,23 @@
       </div>
       <h2 class="card-title repo-native-card__title">{{ profile.name }}</h2>
       <p class="card-text repo-native-card__description">{{ profile.description }}</p>
+      <div class="repo-native-card__stats repo-native-card__stats--profile">
+        <span class="repo-native-card__stat">
+          <i class="fa-solid fa-star"></i>
+          <span class="repo-native-card__stat-label">Stars</span>
+          <span class="repo-native-card__stat-value js-github-profile-stars">--</span>
+        </span>
+        <span class="repo-native-card__stat">
+          <i class="fa-solid fa-user-group"></i>
+          <span class="repo-native-card__stat-label">Followers</span>
+          <span class="repo-native-card__stat-value js-github-profile-followers">--</span>
+        </span>
+        <span class="repo-native-card__stat">
+          <i class="fa-solid fa-book-bookmark"></i>
+          <span class="repo-native-card__stat-label">Repos</span>
+          <span class="repo-native-card__stat-value js-github-profile-repos">--</span>
+        </span>
+      </div>
       <div class="link-cluster repo-native-card__links">
         {% for link in profile.links %}
           <a class="link-chip" href="{{ link.url }}">{{ link.label }}</a>

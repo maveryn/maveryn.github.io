@@ -159,12 +159,11 @@ h6,
 }
 
 .repo-native-card {
-  background:
-    radial-gradient(circle at top right, rgba(159, 122, 75, 0.12), transparent 38%),
-    linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(251, 246, 238, 0.96));
-  border: 1px solid rgba(159, 122, 75, 0.28);
+  background: linear-gradient(180deg, #fbf6ee 0%, #f1e4d2 100%);
+  border: 1px solid rgba(159, 122, 75, 0.42);
+  border-top: 3px solid #9f7a4b;
   box-shadow:
-    0 14px 30px rgba(20, 50, 74, 0.08),
+    0 8px 18px rgba(20, 50, 74, 0.06),
     inset 0 1px 0 rgba(255, 255, 255, 0.85);
 }
 
@@ -192,9 +191,9 @@ h6,
   display: flex;
   align-items: center;
   gap: 0.55rem;
-  color: var(--global-text-color-light);
+  color: #14324a;
   font-size: 0.92rem;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .repo-native-card__icon {
@@ -210,29 +209,34 @@ h6,
 
 .repo-native-card__path {
   word-break: break-word;
+  color: #14324a;
 }
 
 .repo-native-card__title {
   margin: 0;
   font-size: 1.55rem;
   line-height: 0.98;
+  color: #14324a !important;
 }
 
 .repo-native-card__description {
   margin: 0;
   flex: 1 1 auto;
-  color: var(--global-text-color);
+  color: #14324a !important;
   font-size: 0.98rem;
 }
 
-.repo-native-card__meta {
+.repo-native-card__stats {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
 }
 
-.repo-native-card__meta-item,
-.repo-native-card__tag {
+.repo-native-card__stats--profile {
+  margin-top: 0.15rem;
+}
+
+.repo-native-card__stat {
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
@@ -244,6 +248,14 @@ h6,
   color: #14324a;
   font-size: 0.82rem;
   font-weight: 700;
+}
+
+.repo-native-card__stat-label {
+  color: rgba(20, 50, 74, 0.82);
+}
+
+.repo-native-card__stat-value {
+  color: #14324a;
 }
 
 .repo-native-card__links {
