@@ -5,10 +5,8 @@
     <div class="card-body">
       <div class="repo-native-card__eyebrow">
         <span class="repo-native-card__icon"><i class="fa-brands fa-github"></i></span>
-        <span class="repo-native-card__path">{{ profile.username }}</span>
+        <a class="repo-native-card__path repo-native-card__path--link" href="{{ profile.profile_url }}">{{ profile.username }}</a>
       </div>
-      <h2 class="card-title repo-native-card__title">{{ profile.name }}</h2>
-      <p class="card-text repo-native-card__description">{{ profile.description }}</p>
       <div class="repo-native-card__stats repo-native-card__stats--profile">
         <span class="repo-native-card__stat">
           <i class="fa-solid fa-star"></i>
@@ -16,20 +14,14 @@
           <span class="repo-native-card__stat-value js-github-profile-stars">--</span>
         </span>
         <span class="repo-native-card__stat">
-          <i class="fa-solid fa-user-group"></i>
-          <span class="repo-native-card__stat-label">Followers</span>
-          <span class="repo-native-card__stat-value js-github-profile-followers">--</span>
-        </span>
-        <span class="repo-native-card__stat">
           <i class="fa-solid fa-book-bookmark"></i>
           <span class="repo-native-card__stat-label">Repos</span>
           <span class="repo-native-card__stat-value js-github-profile-repos">--</span>
         </span>
-      </div>
-      <div class="link-cluster repo-native-card__links">
-        {% for link in profile.links %}
-          <a class="link-chip" href="{{ link.url }}">{{ link.label }}</a>
-        {% endfor %}
+        <a class="repo-native-card__stat repo-native-card__stat--link" href="{{ profile.profile_url }}">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+          <span class="repo-native-card__stat-label">Profile</span>
+        </a>
       </div>
     </div>
   </div>

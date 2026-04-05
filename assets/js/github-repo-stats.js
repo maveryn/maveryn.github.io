@@ -57,10 +57,9 @@ function updateProfileStats() {
 
   const username = profileCard.dataset.githubUsername;
   const starsTarget = profileCard.querySelector(".js-github-profile-stars");
-  const followersTarget = profileCard.querySelector(".js-github-profile-followers");
   const reposTarget = profileCard.querySelector(".js-github-profile-repos");
 
-  if (!username || !starsTarget || !followersTarget || !reposTarget) {
+  if (!username || !starsTarget || !reposTarget) {
     return;
   }
 
@@ -73,11 +72,9 @@ function updateProfileStats() {
 
       const totalStars = repos.reduce((sum, repo) => sum + (repo.stargazers_count || 0), 0);
       starsTarget.textContent = formatCount(totalStars);
-      followersTarget.textContent = formatCount(user.followers || 0);
       reposTarget.textContent = formatCount(user.public_repos || repos.length);
     } catch (error) {
       starsTarget.textContent = "N/A";
-      followersTarget.textContent = "N/A";
       reposTarget.textContent = "N/A";
       console.warn("Could not fetch GitHub profile stats for", username, error);
     }

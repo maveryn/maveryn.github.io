@@ -12,8 +12,6 @@ _styles: |
 ---
 
 {% if site.data.repositories.github_profile %}
-## GitHub Profile
-
 <div class="repositories repositories-grid repositories-grid--profile">
   {% include repository/repo_user.liquid profile=site.data.repositories.github_profile %}
 </div>
