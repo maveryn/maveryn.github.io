@@ -33,9 +33,9 @@ would like to collaborate, feel free to email me.
   <span class="focus-pill">Reinforcement Learning with Verifiable Rewards</span>
   <span class="focus-pill">Large Language Models</span>
   <span class="focus-pill">Vision-Language Models</span>
+  <span class="focus-pill">Benchmarking and Evaluation</span>
   <span class="focus-pill">Robustness and Generalization</span>
   <span class="focus-pill">World Models</span>
-  <span class="focus-pill">Benchmarking and Evaluation</span>
   <span class="focus-pill">Cyber Threat Intelligence</span>
 </div>
 
@@ -48,4 +48,4 @@ would like to collaborate, feel free to email me.
   <a class="link-chip" href="https://stackoverflow.com/users/5131287/anathaatma">Stack Overflow</a>
 </p>
 
-<p class="small-note">Email: ma8235 [at] rit [dot] edu</p>
+<p class="small-note">Email: tanvirul.alam.research [at] gmail [dot] com</p>
