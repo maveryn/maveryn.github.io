@@ -128,6 +128,106 @@ h6,
   box-shadow: 0 12px 22px rgba(20, 50, 74, 0.1);
 }
 
+.trace-feature {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(16rem, 0.85fr);
+  gap: 1.5rem;
+  align-items: center;
+  margin: 2.25rem 0 2.5rem;
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--global-divider-color);
+  border-bottom: 1px solid var(--global-divider-color);
+}
+
+.trace-feature__visual {
+  display: block;
+  overflow: hidden;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.35rem;
+  background: #fff;
+  text-decoration: none;
+}
+
+.trace-feature__visual img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 0.2s ease;
+}
+
+.trace-feature__visual:hover img {
+  transform: scale(1.01);
+}
+
+.trace-feature__content {
+  min-width: 0;
+}
+
+.trace-feature__eyebrow {
+  margin: 0 0 0.3rem;
+  color: var(--global-theme-color);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.post article .trace-feature h2 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 2.15rem;
+  line-height: 1;
+}
+
+.trace-feature h2 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.trace-feature h2 a:hover {
+  color: var(--global-theme-color);
+}
+
+.trace-feature__subtitle {
+  margin: 0.45rem 0 0.8rem;
+  color: var(--global-text-color-light);
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.trace-feature__metrics {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 1rem;
+  margin: 1rem 0;
+  padding: 0;
+  list-style: none;
+  color: var(--global-text-color-light);
+  font-size: 0.92rem;
+}
+
+.trace-feature__metrics strong {
+  color: var(--global-text-color);
+}
+
+.trace-feature__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+}
+
+.trace-feature__primary-link {
+  border-color: var(--global-theme-color);
+  background: var(--global-theme-color);
+  color: #fff;
+}
+
+.trace-feature__primary-link:hover {
+  background: var(--global-hover-color);
+  color: #fff;
+}
+
 .featured-projects .card,
 .projects .card,
 .repositories .repo {
@@ -349,6 +449,11 @@ h6,
 
   .focus-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .trace-feature {
+    grid-template-columns: 1fr;
+    gap: 1.15rem;
   }
 
   .cv-frame {

@@ -10,14 +10,14 @@ github_profile:
       url: https://maveryn.github.io
 
 github_repos:
-  - repository: maveryn/sphinx
-    title: SPHINX
-    description: "[CVPR'26, Findings] SPHINX: A Synthetic Environment for Visual Perception and Reasoning."
+  - repository: maveryn/trace
+    title: Trace
+    description: "Trace: A Taxonomy-Guided Environment for Multidomain Visual Reasoning."
     language: Python
     tags:
-      - Benchmark
+      - Visual Reasoning
       - Synthetic Data
-      - Multimodal Reasoning
+      - RLVR
 
   - repository: maveryn/cti-bench
     title: CTI-Bench
@@ -27,6 +27,15 @@ github_repos:
       - Security
       - Benchmark
       - CTI
+
+  - repository: maveryn/sphinx
+    title: SPHINX
+    description: "[CVPR'26, Findings] SPHINX: A Synthetic Environment for Visual Perception and Reasoning."
+    language: Python
+    tags:
+      - Benchmark
+      - Synthetic Data
+      - Multimodal Reasoning
 
   - repository: maveryn/punctuation-restoration
     title: Punctuation Restoration
@@ -54,12 +63,3 @@ github_repos:
       - Security
       - NER
       - Library
-
-  - repository: maveryn/rlvr-seq-generalization
-    title: RLVR Sequence Generalization
-    description: Experiments and analysis for sequence generalization under RL with verifiable rewards.
-    language: Python
-    tags:
-      - RLVR
-      - Reasoning
-      - Research

@@ -26,6 +26,40 @@ shift and in high-stakes settings. Looking ahead, I am especially interested in 
 how language, vision, and action can be integrated into more grounded reasoning systems; if you
 would like to collaborate, feel free to email me.
 
+<section class="trace-feature" aria-labelledby="trace-feature-title">
+  <a class="trace-feature__visual" href="https://maveryn.github.io/trace/">
+    <img
+      src="{{ '/assets/img/projects/trace-domain-montage.png' | relative_url }}"
+      alt="Examples from Trace across charts, games, geometry, graphs, icons, illustrations, pages, physics, puzzles, symbolic reasoning, and 3D scenes"
+      width="1512"
+      height="778"
+      decoding="async"
+    >
+  </a>
+  <div class="trace-feature__content">
+    <p class="trace-feature__eyebrow">Featured Project</p>
+    <h2 id="trace-feature-title">
+      <a href="https://maveryn.github.io/trace/">Trace</a>
+    </h2>
+    <p class="trace-feature__subtitle">A Taxonomy-Guided Environment for Multidomain Visual Reasoning</p>
+    <p>
+      Trace is a procedural environment for broad, reproducible visual-reasoning training and
+      evaluation. It generates images, questions, answers, and answer checks from the same
+      underlying task state.
+    </p>
+    <ul class="trace-feature__metrics" aria-label="Trace project scale">
+      <li><strong>1,000</strong> tasks</li>
+      <li><strong>277</strong> scene grammars</li>
+      <li><strong>11</strong> visual domains</li>
+    </ul>
+    <div class="trace-feature__links">
+      <a class="link-chip trace-feature__primary-link" href="https://maveryn.github.io/trace/">Project Page</a>
+      <a class="link-chip" href="https://arxiv.org/abs/2607.19790">Paper</a>
+      <a class="link-chip" href="https://github.com/maveryn/trace">Code</a>
+    </div>
+  </div>
+</section>
+
 ## Research Interests
 
 <div class="focus-grid">
