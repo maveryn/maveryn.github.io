@@ -52,6 +52,34 @@ would like to collaborate, feel free to email me.
       <li><strong>277</strong> scene grammars</li>
       <li><strong>11</strong> visual domains</li>
     </ul>
+    <p class="trace-feature__result-intro">
+      RLVR training with 64K Trace examples improved Qwen2.5-VL at both model scales across 24
+      external benchmarks.
+    </p>
+    <table class="trace-feature__results" aria-label="Trace results across 24 external benchmarks">
+      <thead>
+        <tr>
+          <th scope="col">Model</th>
+          <th scope="col">Base</th>
+          <th scope="col">Trace RLVR</th>
+          <th scope="col">Gain</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">3B</th>
+          <td>39.34</td>
+          <td>42.85</td>
+          <td>+3.51</td>
+        </tr>
+        <tr>
+          <th scope="row">7B</th>
+          <td>47.93</td>
+          <td>51.99</td>
+          <td>+4.06</td>
+        </tr>
+      </tbody>
+    </table>
     <div class="trace-feature__links">
       <a class="link-chip trace-feature__primary-link" href="https://maveryn.github.io/trace/">Project Page</a>
       <a class="link-chip" href="https://arxiv.org/abs/2607.19790">Paper</a>

@@ -211,6 +211,57 @@ h6,
   color: var(--global-text-color);
 }
 
+.trace-feature__result-intro {
+  margin: 0.9rem 0 0.4rem;
+  font-size: 0.9rem;
+  line-height: 1.35;
+}
+
+.trace-feature__results {
+  width: 100%;
+  margin: 0 0 1rem;
+  border-top: 1px solid var(--global-divider-color);
+  border-bottom: 1px solid var(--global-divider-color);
+  border-collapse: collapse;
+  font-size: 0.82rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.trace-feature__results th,
+.trace-feature__results td {
+  padding: 0.32rem 0.35rem;
+  border-bottom: 1px solid var(--global-divider-color);
+  text-align: right;
+  white-space: nowrap;
+}
+
+.trace-feature__results th:first-child {
+  padding-left: 0;
+  text-align: left;
+}
+
+.trace-feature__results th:last-child,
+.trace-feature__results td:last-child {
+  padding-right: 0;
+}
+
+.trace-feature__results thead th {
+  color: var(--global-text-color-light);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.trace-feature__results tbody tr:last-child th,
+.trace-feature__results tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.trace-feature__results tbody td:last-child {
+  color: var(--global-theme-color);
+  font-weight: 700;
+}
+
 .trace-feature__links {
   display: flex;
   flex-wrap: wrap;
